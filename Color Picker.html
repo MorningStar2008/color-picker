@@ -1,0 +1,61 @@
+<html>
+ <head>
+ 	<title>Color Picker</title>
+ </head>
+ <body>
+ 	<link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Finger Paint';font-size: 22px;
+    -webkit-animation: colorchange 20s infinite;
+        animation: colorchange 20s infinite;
+      }
+      @-webkit-keyframes colorchange {
+        0% {
+          background: #fa0000;
+        }
+        20% {
+          background: #fa8a00;
+        }
+        40% {
+          background: #f6fa00;
+        }
+        60% {
+          background: #00ff04;
+        }
+        80% {
+          background: #1e00ff;
+        }
+        100% {
+          background: #b300ff;
+        }
+      }
+      @keyframes colorchange {
+        0% {
+          background: #fa0000;
+        }
+        20% {
+          background: #fa8a00;
+        }
+        40% {
+          background: #f6fa00;
+        }
+        60% {
+          background: #00ff04;
+        }
+        80% {
+          background: #1e00ff;
+        }
+        100% {
+          background: #b300ff;
+        }
+      }
+}
+</style>
+ 	<center><h1>Color Picker</h1></center>
+ 	<center><h2>Simply click on the square to get started</h2></center>
+ 	<center><h3>Created by Sumlina Alam</h3></center>
+   <center><label for="colorpicker">Color Picker:</label></center>
+   <center><input type="color" id="colorpicker" value="#ffffff" style="width:85%;height:65%;"></center>
+ </body>
+</html>
